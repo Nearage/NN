@@ -25,12 +25,12 @@ import io.github.nearage.jnn.processing.Model;
 
 /**
  * Neural network sample
- * 
+ *
  * @author Nearage <https://github.com/Nearage>
  */
 public class NN {
 
-    public static void main(String[] args) throws Exception {        
+    public static void main(String[] args) throws Exception {
         int epochs = args.length > 0 ? Integer.parseInt(args[0]) : 200;
         double learningRate = args.length > 1 ? Double.parseDouble(args[1]) : .0002;
         String inputPath = args.length > 2 ? args[2] : "input-400-256.matrix";
