@@ -34,7 +34,7 @@ public class NN {
         int epochs = args.length > 0 ? Integer.parseInt(args[0]) : 200;
         double learningRate = args.length > 1 ? Double.parseDouble(args[1]) : .0002;
         String inputPath = args.length > 2 ? args[2] : "input-400-256.matrix";
-        String targetPath = args.length > 3 ? args[3] : "target-400-2.matrix";
+        String targetPath = args.length > 3 ? args[3] : "target-400-256.matrix";
 
         Matrix input = Matrix.load(inputPath);
         Matrix target = Matrix.load(targetPath);
