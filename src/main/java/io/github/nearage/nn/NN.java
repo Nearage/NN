@@ -16,7 +16,6 @@
  */
 package io.github.nearage.nn;
 
-import io.github.nearage.jnn.input.Dataset;
 import io.github.nearage.jnn.input.Matrix;
 import io.github.nearage.jnn.model.Sequential;
 import io.github.nearage.jnn.model.layer.Dense;
