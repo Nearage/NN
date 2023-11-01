@@ -1,2 +1,6 @@
 /pom.xml
 /nb-configuration.xml
+/input-400-512.matrix
+/input-400-256.matrix
+/input-400-1024.matrix
+/input-400-4096.matrix
